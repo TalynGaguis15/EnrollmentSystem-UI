@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ nav {
+    float: left;
+    width: 16.4%;
+    height: 600px; 
+    background: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+article { 
+    float: left;
+    width: 73.6%;
+    background-color: #ffffff;
+    height: 550px; 
+    color: rgb(7, 7, 7);
+    padding: 10px;
+
+  }
+.body
+{
+  float: left;
+    width: 100%;
+    background-color: #ffffff;
+    height: 550px; 
+    color: rgb(7, 7, 7);
+    padding: 20px;
+}
+.article{
+    float: right;
+    width: 20%;
+    background-color: #ffffff;
+    height: 450px; 
+    color: rgb(7, 7, 7);
+    padding: 10px;
+}
+button {
+    display: inline-block;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+  }
+
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+  }
+.buttonsave-cancel {
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 85px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+  display: inline-block;
+}
+.button-remove{
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  width: 75px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+.button-remove:hover {
+  background-color: red;
+  cursor: pointer;
+  color: rgb(7, 7, 7);
+}
+  
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* background-image: url('C:\Users\LaniPEDRO\Desktop\FinalProject\enrollment\src\images\stilogo.png'); */
+  }
+.buttonimage{
+    width: 20%;
+  }
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  } 
+th,td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  }
+.tr:hover {
+  background-color: #ddd;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  #f4511e;
+  color: white;
+}
+input[type=text], input[type=number], input[type=date], select {
+	width: 110%;
+	padding: 6px 12px;
+	margin: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+.search[type=text], .search{
+  width: 45%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
